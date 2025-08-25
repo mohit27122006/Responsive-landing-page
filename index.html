@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeVerse - Your Anime Destination</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Anime<span>Verse</span></a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#trending">Trending</a>
+                <a href="#genres">Genres</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="mobile-menu">
+                <a href="#home">Home</a>
+                <a href="#trending">Trending</a>
+                <a href="#genres">Genres</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Discover Your Next <span>Anime</span> Adventure</h1>
+                <p>Thousands of anime series and movies at your fingertips. Join our community of anime lovers today!</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn-primary">Explore Now</a>
+                    <a href="#" class="btn-secondary">Watch Trailer <i class="fas fa-play"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trending Section -->
+    <section class="trending" id="trending">
+        <div class="container">
+            <h2 class="section-title">Trending <span>This Week</span></h2>
+            <div class="anime-grid">
+                <!-- Anime cards will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Genres Section -->
+    <section class="genres" id="genres">
+        <div class="container">
+            <h2 class="section-title">Popular <span>Genres</span></h2>
+            <div class="genre-grid">
+                <div class="genre-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./images/action.jpg')">
+                    <h3>Action</h3>
+                </div>
+                <div class="genre-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./images/advanture.jpg')">
+                    <h3>Adventure</h3>
+                </div>
+                <div class="genre-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./images/romantic.jpg')">
+                    <h3>Romance</h3>
+                </div>
+                <div class="genre-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./images/comedy.jpg')">
+                    <h3>Comedy</h3>
+                </div>
+                <div class="genre-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./images/fantasy.jpg')">
+                    <h3>Fantasy</h3>
+                </div>
+                <div class="genre-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./images/horror.jpg')">
+                    <h3>Horror</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe for the latest anime news and releases.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#" class="logo">Anime<span>Verse</span></a>
+                    <p>Your ultimate destination for all things anime. Discover, watch, and connect with fellow anime enthusiasts.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#trending">Trending</a></li>
+                        <li><a href="#genres">Genres</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i>anime365@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +91 8459684349</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Dehradun , Uttarakhand</li>
+                    </ul>
+                </div>
+            </div>
+           
+        </div>
+ 
+
+    <script src="script.js"></script>
+</body>
+</html>
